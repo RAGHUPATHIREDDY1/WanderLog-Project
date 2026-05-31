@@ -1,0 +1,86 @@
+.detail-page {
+  padding: 40px;
+}
+
+.back-btn {
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+
+  background: teal;
+  color: white;
+
+  border-radius: 8px;
+}
+
+.detail-card {
+  display: flex;
+  gap: 40px;
+
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 15px;
+
+  box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+}
+
+.detail-card img {
+  width: 450px;
+  border-radius: 10px;
+}
+
+.detail-info {
+  flex: 1;
+}
+
+.detail-info h1 {
+  margin-bottom: 20px;
+}
+
+.detail-info p {
+  margin-bottom: 12px;
+}
+
+.buttons {
+  margin-top: 25px;
+
+  display: flex;
+  gap: 15px;
+}
+
+.bucket-btn {
+  background: teal;
+  color: white;
+
+  border: none;
+  padding: 12px 20px;
+
+  border-radius: 8px;
+}
+
+.visit-btn {
+  background: orange;
+  color: white;
+
+  border: none;
+  padding: 12px 20px;
+
+  border-radius: 8px;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 100px;
+}
+
+@media (max-width: 900px) {
+  .detail-card {
+    flex-direction: column;
+  }
+
+  .detail-card img {
+    width: 100%;
+  }
+}

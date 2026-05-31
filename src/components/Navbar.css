@@ -1,0 +1,56 @@
+.navbar {
+  background: white;
+
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 30px;
+
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: teal;
+}
+
+.navbar-search {
+  flex: 1;
+  margin: 0 30px;
+}
+
+.navbar-search input {
+  width: 100%;
+  max-width: 500px;
+
+  padding: 12px;
+
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.badge {
+  background: #f1f5f9;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.logout-btn {
+  border: none;
+  background: #ef4444;
+  color: white;
+
+  padding: 10px 15px;
+  border-radius: 10px;
+}
